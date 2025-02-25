@@ -25,3 +25,12 @@ No data products found or an error occurred.
 I'll have more switches soon as I build in support for CDEs, OKRs, terms and data policies.
 
 The next thing coming is the question bank.
+
+Oh one more thing. Add the following to a file alled **config.yaml** which should sit in the root.
+
+```yaml
+TENANT_ID: guid
+CLIENT_ID: guid
+CLIENT_SECRET: uglystring
+PURVIEW_ACCOUNT_NAME: unique azure purview account name
+```
